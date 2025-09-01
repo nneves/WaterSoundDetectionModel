@@ -4,7 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load TFLite model
-interpreter = tf.lite.Interpreter(model_path="model_improved_int8_3_2.tflite")
+# interpreter = tf.lite.Interpreter(model_path="model_improved_int8_3_2.tflite")
+interpreter = tf.lite.Interpreter(model_path="model_improved_int8_3_2_1.tflite")
 interpreter.allocate_tensors()
 
 # Get input and output details
@@ -72,8 +73,8 @@ def predict_wave_file_tflite(audio_path):
 
 # Usage
 if __name__ == "__main__":
-    # audio_file = "audio_samples_3_2/3.90l_1753737940_6.wav"
-    audio_file = "audio_samples_3_2/4.44l_1753550540_3.wav"
+    audio_file = "audio_samples_3_2/3.90l_1753737940_6.wav" # 3.53L => got 3.54L
+    # audio_file = "audio_samples_3_2/4.44l_1753550540_3.wav" # 3.55L => got 3.55L
     result = predict_wave_file_tflite(audio_file)
     
     if result:

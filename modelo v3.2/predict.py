@@ -4,7 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Escolha o modelo que pretende usar
-model = tf.keras.models.load_model("model_improved_3.2.keras")
+# model = tf.keras.models.load_model("model_improved_3.2.keras")
+model = tf.keras.models.load_model("model_improved_3_2_1.keras")
 
 # Configurações
 chunk_duration = 3  # seconds
@@ -55,8 +56,8 @@ def predict_wave_file(audio_path):
 
 if __name__ == "__main__":
     # Exemplo de uso
-    # audio_file = "audio_samples_3_2/3.90l_1753737940_6.wav"
-    audio_file = "audio_samples_3_2/4.44l_1753550540_3.wav"
+    audio_file = "audio_samples_3_2/3.90l_1753737940_6.wav" # 3.53L
+    # audio_file = "audio_samples_3_2/4.44l_1753550540_3.wav" # 3.55L
     result = predict_wave_file(audio_file)
     
     if result:
