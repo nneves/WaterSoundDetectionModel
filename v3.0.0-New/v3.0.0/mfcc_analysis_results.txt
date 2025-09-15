@@ -1,0 +1,176 @@
+-------------------------------------------------------------------------------------------
+=== Testing Low Flow (1.48l_min_1.wav) ===
+-------------------------------------------------------------------------------------------
+Chunk 1: MFCC (before norm) - Min: -801.3386, Max: 61.3263, Mean: -12.8542, Range: 862.6649
+MFCC (after norm) - Min: -1.0000, Max: 0.0765, Mean: -0.0160, Range: 1.0765
+Quantized - Min: -1, Max: 127, Scale: 0.004222, Zero: -1
+Low flow prediction: 0.2854 liters
+
+Chunk 2: MFCC (before norm) - Min: -266.6150, Max: 56.7385, Mean: -11.7974, Range: 323.3535
+MFCC (after norm) - Min: -1.0000, Max: 0.2128, Mean: -0.0442, Range: 1.2128
+Quantized - Min: -1, Max: 127, Scale: 0.004756, Zero: -1
+Low flow prediction: 0.1159 liters
+
+Chunk 3: MFCC (before norm) - Min: -261.8013, Max: 63.6166, Mean: -11.2490, Range: 325.4179
+MFCC (after norm) - Min: -1.0000, Max: 0.2430, Mean: -0.0430, Range: 1.2430
+Quantized - Min: -1, Max: 127, Scale: 0.004874, Zero: -1
+Low flow prediction: 0.1286 liters
+
+Chunk 4: MFCC (before norm) - Min: -243.1708, Max: 61.8972, Mean: -10.9102, Range: 305.0680
+MFCC (after norm) - Min: -1.0000, Max: 0.2545, Mean: -0.0449, Range: 1.2545
+Quantized - Min: -1, Max: 127, Scale: 0.004920, Zero: -1
+Low flow prediction: 0.2027 liters
+
+Chunk 5: MFCC (before norm) - Min: -246.6220, Max: 62.9138, Mean: -10.9421, Range: 309.5359
+MFCC (after norm) - Min: -1.0000, Max: 0.2551, Mean: -0.0444, Range: 1.2551
+Quantized - Min: -1, Max: 127, Scale: 0.004922, Zero: -1
+Low flow prediction: 0.1369 liters
+
+Chunk 6: MFCC (before norm) - Min: -255.1161, Max: 66.3712, Mean: -11.5781, Range: 321.4873
+MFCC (after norm) - Min: -1.0000, Max: 0.2602, Mean: -0.0454, Range: 1.2602
+Quantized - Min: -1, Max: 127, Scale: 0.004942, Zero: -1
+Low flow prediction: 0.1277 liters
+
+Chunk 7: MFCC (before norm) - Min: -246.0371, Max: 60.9147, Mean: -10.7984, Range: 306.9518
+MFCC (after norm) - Min: -1.0000, Max: 0.2476, Mean: -0.0439, Range: 1.2476
+Quantized - Min: -1, Max: 127, Scale: 0.004892, Zero: -1
+Low flow prediction: 0.1493 liters
+
+Chunk 8: MFCC (before norm) - Min: -265.8909, Max: 61.9823, Mean: -11.0734, Range: 327.8732
+MFCC (after norm) - Min: -1.0000, Max: 0.2331, Mean: -0.0416, Range: 1.2331
+Quantized - Min: -1, Max: 127, Scale: 0.004836, Zero: -1
+Low flow prediction: 0.1441 liters
+
+Chunk 9: MFCC (before norm) - Min: -240.9583, Max: 57.2371, Mean: -10.3663, Range: 298.1954
+MFCC (after norm) - Min: -1.0000, Max: 0.2375, Mean: -0.0430, Range: 1.2375
+Quantized - Min: -1, Max: 127, Scale: 0.004853, Zero: -1
+Low flow prediction: 0.1250 liters
+
+Chunk 10: MFCC (before norm) - Min: -247.5249, Max: 51.3133, Mean: -11.2022, Range: 298.8382
+MFCC (after norm) - Min: -1.0000, Max: 0.2073, Mean: -0.0453, Range: 1.2073
+Quantized - Min: -1, Max: 127, Scale: 0.004735, Zero: -1
+Low flow prediction: 0.1229 liters
+
+Total Low Flow - Expected: 1.48L, Predicted: 1.54L, Error: 4.0%
+
+-------------------------------------------------------------------------------------------
+=== Testing Medium Flow (2.60l_1750712105_0.wav) ===
+-------------------------------------------------------------------------------------------
+Chunk 1: MFCC (before norm) - Min: -57.3590, Max: 157.1196, Mean: -1.2191, Range: 214.4786
+MFCC (after norm) - Min: -0.3651, Max: 1.0000, Mean: -0.0078, Range: 1.3651
+Quantized - Min: -1, Max: 127, Scale: 0.005353, Zero: -1
+Medium flow prediction: 0.2626 liters
+
+Chunk 2: MFCC (before norm) - Min: -62.9188, Max: 39.3047, Mean: -1.6183, Range: 102.2234
+MFCC (after norm) - Min: -1.0000, Max: 0.6247, Mean: -0.0257, Range: 1.6247
+Quantized - Min: -1, Max: 127, Scale: 0.006371, Zero: -1
+Medium flow prediction: 0.2659 liters
+
+Chunk 3: MFCC (before norm) - Min: -65.8000, Max: 48.1713, Mean: -1.8831, Range: 113.9713
+MFCC (after norm) - Min: -1.0000, Max: 0.7321, Mean: -0.0286, Range: 1.7321
+Quantized - Min: -1, Max: 127, Scale: 0.006792, Zero: -1
+Medium flow prediction: 0.2622 liters
+
+Chunk 4: MFCC (before norm) - Min: -76.0607, Max: 42.8353, Mean: -1.7088, Range: 118.8960
+MFCC (after norm) - Min: -1.0000, Max: 0.5632, Mean: -0.0225, Range: 1.5632
+Quantized - Min: -1, Max: 127, Scale: 0.006130, Zero: -1
+Medium flow prediction: 0.2647 liters
+
+Chunk 5: MFCC (before norm) - Min: -76.3117, Max: 41.3396, Mean: -2.0230, Range: 117.6514
+MFCC (after norm) - Min: -1.0000, Max: 0.5417, Mean: -0.0265, Range: 1.5417
+Quantized - Min: -1, Max: 127, Scale: 0.006046, Zero: -1
+Medium flow prediction: 0.2472 liters
+
+Chunk 6: MFCC (before norm) - Min: -73.5987, Max: 49.6567, Mean: -2.1728, Range: 123.2554
+MFCC (after norm) - Min: -1.0000, Max: 0.6747, Mean: -0.0295, Range: 1.6747
+Quantized - Min: -1, Max: 127, Scale: 0.006567, Zero: -1
+Medium flow prediction: 0.2568 liters
+
+Chunk 7: MFCC (before norm) - Min: -93.6195, Max: 41.2547, Mean: -2.8005, Range: 134.8742
+MFCC (after norm) - Min: -1.0000, Max: 0.4407, Mean: -0.0299, Range: 1.4407
+Quantized - Min: -1, Max: 127, Scale: 0.005650, Zero: -1
+Medium flow prediction: 0.2557 liters
+
+Chunk 8: MFCC (before norm) - Min: -81.0280, Max: 43.8465, Mean: -2.2850, Range: 124.8745
+MFCC (after norm) - Min: -1.0000, Max: 0.5411, Mean: -0.0282, Range: 1.5411
+Quantized - Min: -1, Max: 127, Scale: 0.006044, Zero: -1
+Medium flow prediction: 0.2611 liters
+
+Chunk 9: MFCC (before norm) - Min: -81.8811, Max: 48.0736, Mean: -1.2734, Range: 129.9547
+MFCC (after norm) - Min: -1.0000, Max: 0.5871, Mean: -0.0156, Range: 1.5871
+Quantized - Min: -1, Max: 127, Scale: 0.006224, Zero: -1
+Medium flow prediction: 0.2521 liters
+
+Chunk 10: MFCC (before norm) - Min: -74.9634, Max: 89.7051, Mean: -1.7895, Range: 164.6685
+MFCC (after norm) - Min: -0.8357, Max: 1.0000, Mean: -0.0199, Range: 1.8357
+Quantized - Min: -1, Max: 127, Scale: 0.007199, Zero: -1
+Medium flow prediction: 0.2608 liters
+
+Total Medium Flow - Expected: 2.60L, Predicted: 2.59L, Error: 0.4%
+
+-------------------------------------------------------------------------------------------
+=== Testing High Flow (3.75l_min_1.wav) ===
+-------------------------------------------------------------------------------------------
+Chunk 1: MFCC (before norm) - Min: -882.4574, Max: 60.6320, Mean: -12.0767, Range: 943.0894
+MFCC (after norm) - Min: -1.0000, Max: 0.0687, Mean: -0.0137, Range: 1.0687
+Quantized - Min: -1, Max: 127, Scale: 0.004191, Zero: -1
+High flow prediction: 0.3911 liters
+
+Chunk 2: MFCC (before norm) - Min: -282.8835, Max: 63.2711, Mean: -9.9823, Range: 346.1547
+MFCC (after norm) - Min: -1.0000, Max: 0.2237, Mean: -0.0353, Range: 1.2237
+Quantized - Min: -1, Max: 127, Scale: 0.004799, Zero: -1
+High flow prediction: 0.3791 liters
+
+Chunk 3: MFCC (before norm) - Min: -265.3054, Max: 58.3567, Mean: -10.4442, Range: 323.6622
+MFCC (after norm) - Min: -1.0000, Max: 0.2200, Mean: -0.0394, Range: 1.2200
+Quantized - Min: -1, Max: 127, Scale: 0.004784, Zero: -1
+High flow prediction: 0.3637 liters
+
+Chunk 4: MFCC (before norm) - Min: -260.8923, Max: 62.3228, Mean: -9.9664, Range: 323.2151
+MFCC (after norm) - Min: -1.0000, Max: 0.2389, Mean: -0.0382, Range: 1.2389
+Quantized - Min: -1, Max: 127, Scale: 0.004858, Zero: -1
+High flow prediction: 0.3695 liters
+
+Chunk 5: MFCC (before norm) - Min: -276.0691, Max: 57.0774, Mean: -10.0825, Range: 333.1465
+MFCC (after norm) - Min: -1.0000, Max: 0.2068, Mean: -0.0365, Range: 1.2068
+Quantized - Min: -1, Max: 127, Scale: 0.004732, Zero: -1
+High flow prediction: 0.3604 liters
+
+Chunk 6: MFCC (before norm) - Min: -269.7267, Max: 60.7529, Mean: -10.2014, Range: 330.4796
+MFCC (after norm) - Min: -1.0000, Max: 0.2252, Mean: -0.0378, Range: 1.2252
+Quantized - Min: -1, Max: 127, Scale: 0.004805, Zero: -1
+High flow prediction: 0.3717 liters
+
+Chunk 7: MFCC (before norm) - Min: -285.0706, Max: 61.6082, Mean: -10.1915, Range: 346.6788
+MFCC (after norm) - Min: -1.0000, Max: 0.2161, Mean: -0.0358, Range: 1.2161
+Quantized - Min: -1, Max: 127, Scale: 0.004769, Zero: -1
+High flow prediction: 0.3648 liters
+
+Chunk 8: MFCC (before norm) - Min: -265.1915, Max: 60.2764, Mean: -9.9256, Range: 325.4679
+MFCC (after norm) - Min: -1.0000, Max: 0.2273, Mean: -0.0374, Range: 1.2273
+Quantized - Min: -1, Max: 127, Scale: 0.004813, Zero: -1
+High flow prediction: 0.3757 liters
+
+Chunk 9: MFCC (before norm) - Min: -301.4212, Max: 66.2152, Mean: -10.0297, Range: 367.6364
+MFCC (after norm) - Min: -1.0000, Max: 0.2197, Mean: -0.0333, Range: 1.2197
+Quantized - Min: -1, Max: 127, Scale: 0.004783, Zero: -1
+High flow prediction: 0.3579 liters
+
+Chunk 10: MFCC (before norm) - Min: -268.7413, Max: 62.0356, Mean: -9.9082, Range: 330.7769
+MFCC (after norm) - Min: -1.0000, Max: 0.2308, Mean: -0.0369, Range: 1.2308
+Quantized - Min: -1, Max: 127, Scale: 0.004827, Zero: -1
+High flow prediction: 0.3661 liters
+
+Total High Flow - Expected: 3.75L, Predicted: 3.70L, Error: 1.3%
+
+-------------------------------------------------------------------------------------------
+=== Summary ===
+-------------------------------------------------------------------------------------------
+Average Error Across All Tests: 1.9%
+
+=== Quantization Parameters Summary ===
+Low Flow Scale Range: 0.004222 to 0.004942
+Medium Flow Scale Range: 0.005353 to 0.007199
+High Flow Scale Range: 0.004191 to 0.004858
+Zero Point: Consistently -1 for all tests
+Quantization Range: -128 to 127 (int8)
