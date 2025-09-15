@@ -1,0 +1,10 @@
+ 1. Criar .venv
+ 2. Instalar requirements.txt
+ 3. Colocar na raiz:
+	
+	- Pasta dataset_sound
+	- model_3.0.0.keras
+	- script_predict.py
+
+ 4. Correr script_predict.py (script de teste)
+ 5. Ctrl + C para interromper o script
